@@ -37,7 +37,7 @@ export default class App extends Component {
     if (num !== '.') {
       const novoValor                  = parseFloat(valorDoVisor)
       const values                     = [...this.state.valores]
-      values[this.state.valorCorrente] = novoValor
+      values[this.state.indiceCorrente] = novoValor
       this.setState({ valores: values })
       // console.debug(`${values}`)
     }
