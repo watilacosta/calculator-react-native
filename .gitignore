@@ -30,10 +30,6 @@ build/
 .gradle
 local.properties
 *.iml
-<<<<<<< HEAD
-
-=======
->>>>>>> 9d46e754d3abe1854f74f3586256c05e0be7693f
 # node.js
 #
 node_modules/
